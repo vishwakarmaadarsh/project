@@ -1,0 +1,87 @@
+<!--Tots els comentaris que trobes, et donen informació sobre què fer. 
+	Documenta, mitjançant un altre comentari els teus canvis i perquè els fas.
+	Omple els elements -les etiquetes- que no tinguin contingut.
+	Tabula on calgui. Recorda que una tabulació correcta ajuda a visualitzar el document -->
+	
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- Què fa aquesta etiqueta link, perquè serveix? modifica-la posant el teu favicon-->
+		<link rel= "shortcut icon" href="media/1200px-Facebook_icon.svg.png">
+		<!-- Afexeix l'etiqueta per enllaçar el full d'estil aquí -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/table.css">
+		<title> ADARSH</title>
+		
+    </head>
+    
+    <body>
+	  <!-- Substitueix totes les etiquetes div que trobis per etiquetes semàntiques de maquetació HTML5  
+		   o afegeix d'altres EXCEPTE ELS DIV DINS DEL FORM!!! -->
+	  <div><h1> www.Formulari Adarsh </h1></div>
+	  <main>
+		  <!-- Explica els atributs de l'etiqueta form -->
+		  <form id="formulari" action="enviat.html" method="post">
+			<!-- Identifica el significat de l'etiqueta input i perquè serveixen cada atribut type. Trobes 4 almenys-->
+			<div>
+				<p>Introdueix el nom:</p><input type="text" size="30" />
+			</div>
+			<div>
+				<p>Insert your Email</p><input type="email" size= "50"/>
+			</div>
+			<div>
+				<p>Insert your Date of Birth</p><input type="date" min="1980-01-01" max="2000-01-01">>
+			</div>
+			<div>
+				<p>Contrasenya:</p><input type="password" size="30" />
+			</div>
+			
+			<div><p>Escull la mena d'adopció que voldries fer:</p>
+			  <!-- Afegeix opcions -->
+			  <select>
+				  <option>Adopció de gossos</option>
+				  <option>Adopció de gats</option>
+				  <option>Posa altres</option>
+			  </select>
+			</div>
+			
+			<div><p>Escull la teva disponibilitat horària per la recollida:</p>
+				  <select size="3" multiple>
+					  <option>Matí</option>
+					  <option>Tarda</option>
+					  <option>Nit</option>
+				  </select>
+			</div>
+			
+			<div>
+				<p>Selecciona el teu nivell d'experiència amb la cura d'animals:</p>
+				<input type="radio" name="coneixements" value="ninguno"/>sense experiència
+				<input type="radio" name="coneixements" value="ninguno"/>poca experiència
+				<input type="radio" name="coneixements" value="ninguno"/>alguna experiència
+				<input type="radio" name="coneixements" value="ninguno"/>molta experiència
+			</div>
+			  
+			<div>
+				<p>Selecciona la teva província:</p>
+				<input type="checkbox" name="equip" value="ninguno"/>Barcelona
+				<input type="checkbox" name="equip" value="ninguno"/>Tarragona
+				<input type="checkbox" name="equip" value="ninguno"/>Lleida
+				<input type="checkbox" name="equip" value="ninguno"/>Girona
+			</div>
+			
+			<div>
+				<p>Alguna observació?</p>
+				<textarea rows="10" cols="50"></textarea>
+			</div>
+			
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Esborrar">
+		
+		</form>
+		
+	  </main>
+	  <div><p>Thankyou fo visiting my site</p></div>
+    </body>
+</html>
+
+ 

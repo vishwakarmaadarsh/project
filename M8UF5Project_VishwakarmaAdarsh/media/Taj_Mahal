@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+Material pel projecte ProjecteEA_CognomNom
+-->
+<html>
+    <head>
+        <title>TAJ MAHAL</title>
+        <meta charset="UTF-8">
+        <link rel= "shortcut icon" href="media/taj mahal.png">
+     </head>
+        
+    <body background ="media/índex.jpeg">
+		<img src="media/unnamed.png" alt="travel" width="30" height="30">
+		 <header>
+		        <h1>TAJ MAHAL</h1>
+		</header>
+	       <p>
+			<b>El Taj Mahal és un gran mausoleu a la ciutat d'Agra a l'Índia, 
+			   a la vora del riu Yamuna. El va fer construir l'emperador mogol 
+			   Xa Jahan en honor a la seva difunta esposa, l'emperadriu Arjumand 
+			   Banu Begum, més coneguda com a Mumtaz Mahal (l'escollida del palau), 
+			   la qual va morir en donar a llum el seu catorzè fill.
+			    
+            </b>
+          </p>  
+          <h2>Qui va construir el Taj Mahal i per què?</h2>
+          <p>
+			  Sovint descrit com una de les meravelles del món, 
+             l’impressionant Taj Mahal de marbre blanc del segle XVII
+             va ser construït per l’emperador Shah Jahan de Mughal com 
+             a mausoleu per a la seva estimada esposa Mumtaz Mahal, que 
+             va morir en el part.
+         </p>
+         
+       <table border = 3>
+		 <caption>
+				 Dades
+		 </caption
+						  <tr>
+							<td colspan="5"><center><b>Taj Mahal(en hindi: ताज महल, en urdú: تاج محل)</b></center></td>
+						  </tr>
+						 <tr> 
+							<th>Nom en la llengua </th><td>(hi) ताज महल</td>
+						</tr> 
+						<tr> 
+							<th>original</th><td>(ur) تاج مَحَل</td> 
+						</tr> 
+						<tr> 
+							<th>Tipus</th><td>Mausoleu<td> 
+						</tr> 
+						<tr> 
+							<th>Arquitecte</th><td> Ustad Ahmad Lahauri</td> 
+						</tr> 
+						<tr> 
+							<th>Creació</th><td>1631</td> 
+						</tr> 
+						<tr> 
+							<th>Data de finalització</th><td>1654</td> 
+						</tr> 
+						<tr> 
+							<th>País</th><td>India</td> 
+						</tr> 
+						<tr> 
+							<th>Estat federat</th><td>Uttar Pradesh</td> 
+						</tr>
+						<tr> 
+							<th>Ciutat</th><td>Agra</td> 
+						</tr>
+					</table>
+		<h2>Vista lateral de taj mahal</h2>
+       <iframe width="640" height="360" src="https://www.youtube.com/embed/8Bmzg6Xocu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	   </iframe>
+</body>
+</html>
+
+		
+		
+		
+		
+		
+			

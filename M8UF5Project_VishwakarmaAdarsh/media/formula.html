@@ -1,0 +1,100 @@
+<!--Tots els comentaris que trobes, et donen informació sobre què fer. 
+	Documenta, mitjançant un altre comentari els teus canvis i perquè els fas.
+	Omple els elements -les etiquetes- que no tinguin contingut.
+	Tabula on calgui. Recorda que una tabulació correcta ajuda a visualitzar el document -->
+	
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- Què fa aquesta etiqueta link, perquè serveix? modifica-la posant el teu favicon-->
+		<link rel= "shortcut icon" href="media/unnamed.png">
+		<!-- Afexeix l'etiqueta per enllaçar el full d'estil aquí -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/table.css">
+		<title> ADARSH</title>
+		
+    </head>
+    
+    <body>
+	  <!-- Substitueix totes les etiquetes div que trobis per etiquetes semàntiques de maquetació HTML5  
+		   o afegeix d'altres EXCEPTE ELS DIV DINS DEL FORM!!! -->
+	  <div><h1>Benvingut a la meva pàgina web</h1></div>
+	  <main>
+		  <!-- Explica els atributs de l'etiqueta form -->
+		  <form id="formulari" action="enviat.html" method="post">
+			<!-- Identifica el significat de l'etiqueta input i perquè serveixen cada atribut type. Trobes 4 almenys-->
+			<div>
+				<p>Introdueix el nom:</p><input type="text" size="30" />
+			</div>
+			<div>
+				<p>Insert your Email</p><input type="email" size= "50"/>
+			</div>
+			<div>
+				<p>Insert your Date of Birth</p><input type="date" min="1980-01-01" max="2000-01-01">
+			</div>
+			<div>
+				<p>Contrasenya:</p><input type="password" size="30" />
+			</div>
+			
+			<div><p>Heu visitat algun d'aquest lloc:</p>
+			  <!-- Afegeix opcions -->
+			  <select>
+				  <option>Taj Mahal</option>
+				  <option>La gran Muralla Xina</option>
+				  <option>Petra in jordan</option>
+				  <option>Machu Picchu</option>
+				  <option>Colosseum</option>
+
+
+			  </select>
+			</div>
+			
+			<div><p>Quin és el que és el millor moment per visitar qualsevol d'aquest lloc 
+			        (estem treballant per conèixer la gent que intresi en quin moment preferiu 
+			        visitar-lo tan amablement, ser sagu i seleccionar la vostra resposta)</p>
+				  <select size="3" multiple>
+					  <option>Matí</option>
+					  <option>Tarda</option>
+					  <option>Nit</option>
+				  </select>
+			</div>
+			
+			<div>
+				<p>què penses amb qui hauríem de viatjar</p>
+				<input type="radio" name="coneixements" value="ninguno"/>La dona i el marit són la millor parella per viatjar junts
+				<input type="radio" name="coneixements" value="ninguno"/>Srec que vam fer un tremp amb un amic perquè sembla molt aventura
+				<input type="radio" name="coneixements" value="ninguno"/>Sols perquè així no necessitem molts diners
+				<input type="radio" name="coneixements" value="ninguno"/>Amb el millor amic o nòvio o xicota
+			</div>
+			  
+			<div>
+				<p>Selecciona la teva província:</p>
+				<input type="checkbox" name="equip" value="ninguno"/>Barcelona
+				<input type="checkbox" name="equip" value="ninguno"/>Tarragona
+				<input type="checkbox" name="equip" value="ninguno"/>Lleida
+				<input type="checkbox" name="equip" value="ninguno"/>Girona
+			   <select>
+				  <option>D’altres</option>
+				  <option>Montserrat</option>
+				  <option>Sitges</option>
+				  <option>Medieval Vic</option>
+				  <option> Besalú</option>
+			   </select>
+			</div>
+			
+			<div>
+				<p>Si creieu que us he preguntat alguna cosa i teniu en ment i voleu dir que podeu anotar-ho a la caixa?</p>
+				<textarea rows="10" cols="50"></textarea>
+			</div>
+			
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Esborrar">
+		
+		</form>
+		
+	  </main>
+	  <div><p>gràcies per la vostra atenció</p></div>
+    </body>
+</html>
+
+ 
